@@ -50,6 +50,7 @@
     float: left;
     width: 130px;
     height: 100%;
+    position: relative;
 }
 
 .menu a {
@@ -57,37 +58,31 @@
     color: black;
     line-height: 48px;
     padding: 0 30px;
-    position: relative;
 }
 
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 80px;
     left: 0;
-    min-height: 100px;
-    min-width: 80px;
+    top: 50px;
     list-style-type: none;
-    border: 1px solid grey;
-    background-color: white;
-    border-radius: 5px;
 }
 
 }
-.dropdown-menu.active{
+.dropdown-menu.active {
     display: block;
 }
 
 .buttons {
     float: left;
-    width: calc(100% - 550px);
+    width: calc(100% - 520px);
     height: 100%;
 }
 
 .button-login, .button-download {
     float: left;
     line-height: 48px;
-    padding: 0 15px;
+    padding: 0 30px 0 10px;
 }
 
 button.login, button.download {

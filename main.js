@@ -9,7 +9,7 @@ $(document).ready(function () {
     // intercetto il mouseleave sugli elementi dropdown-item
     $('.menu').mouseleave(function () {
         // tolgo la classe active al dropdown-menu in modo che scompaia sul mouseleave
-        console.log("uscito da span");
+        console.log("uscito dal div");
         $(this).children('.dropdown-menu').removeClass('active');
     })
 });
